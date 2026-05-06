@@ -63,4 +63,4 @@ if [ $disk_usage -gt 80 ]; then
 else
 	echo "[INFO]:	[$TIMESTAMP]	Disk usage:$disk_usage (normal)"
 fi
-} > $LOGFILE 2>&1
+} >> $LOGFILE 2>&1
