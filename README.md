@@ -30,5 +30,5 @@ Another simple functionality is only showing warning logs:
 python log-analyzer.py --file /path/to/health.log --warnings-only
 ```
 
-Sample Output:
+## Sample Output:
 ![log-analysis summary](images/log-analyzer.png)
