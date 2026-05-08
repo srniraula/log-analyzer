@@ -17,4 +17,9 @@ Vagrant.configure("2") do |config|
   web02.vm.box = "geerlingguy/centos7"
   web02.vm.network "private_network", ip: "192.168.56.102"
  end
+
+ config.vm.define "web03" do |web03|
+   web03.vm.box = "ubuntu/bionic64"
+   web03.vm.network "private_network", ip: "192.168.56.103"
+ end
 end
